@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --clr-main: #4b33a8;
-    --clr-main-light: #785ce9;
-    --clr-white: #ececec;
-    --clr-gray: #e2e2e2;
+    --clr-main: #21252c5b;
+    --clr-main-light: #2324255b;
+    --clr-white: #ece8e8d0;
+    --clr-gray: #9c8d8d;
     --clr-red: #961818;
 }
 
@@ -37,7 +37,7 @@ a {
 aside {
     padding: 2rem;
     padding-right: 0;
-    color: var(--clr-white);
+    color: rgb(131, 9, 9);
     position: sticky;
     top: 0;
     height: 100vh;
@@ -60,7 +60,7 @@ aside {
 .boton-menu {
     background-color: transparent;
     border: 0;
-    color: var(--clr-white);
+    color: rgb(10, 8, 8);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -88,7 +88,7 @@ aside {
     right: 0;
     background-color: transparent;
     border-bottom-right-radius: .5rem;
-    box-shadow: 0 1rem 0 var(--clr-white);
+    box-shadow: 0 1rem 0 transparent;
 }
 
 .boton-menu.active::after {
@@ -100,7 +100,7 @@ aside {
     right: 0;
     background-color: transparent;
     border-top-right-radius: .5rem;
-    box-shadow: 0 -1rem 0 var(--clr-white);
+    box-shadow: 0 -1rem 0 transparent;
 }
 
 .boton-menu > i.bi-hand-index-thumb-fill,
@@ -127,6 +127,11 @@ aside {
 .boton-carrito.active .numerito {
     background-color: var(--clr-main);
     color: var(--clr-white);
+}
+
+.boton-usuario.active  {
+    background-color: transparent;
+    color: black;
 }
 
 .texto-footer {
